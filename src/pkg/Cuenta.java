@@ -22,5 +22,10 @@ public class Cuenta {
 		
 		this.saldo += i;
 	}
+
+	public void retirar(double d) {
+		
+		this.saldo -= d;
+	}
 	
 }
